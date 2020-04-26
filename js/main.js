@@ -1,7 +1,9 @@
 (function($) {
 
 	'use strict';
-
+ 
+    $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+   
 	// bootstrap dropdown hover
 
   // loader
@@ -13,8 +15,10 @@
     }, 1);
   };
   loader();
-
-	
+  $( document ).ready(function() {
+    new WOW().init();
+  });
+  
 	$('nav .dropdown').hover(function(){
 		var $this = $(this);
 		$this.addClass('show');
@@ -25,9 +29,43 @@
 			$this.removeClass('show');
 			$this.find('> a').attr('aria-expanded', false);
 			$this.find('.dropdown-menu').removeClass('show');
-	});
+  });
+  
+  $('.counter-count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 100000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
 
 
+//   $('#carouselExampleSlidesOnly').on('slide.bs.carousel', function (e) {
+//     /*
+//         CC 2.0 License Iatek LLC 2018 - Attribution required
+//     */
+//     var $e = $(e.relatedTarget);
+//     var idx = $e.index();
+//     var itemsPerSlide = 5;
+//     var totalItems = $('.carousel-item').length;
+ 
+//     if (idx >= totalItems-(itemsPerSlide-1)) {
+//         var it = itemsPerSlide - (totalItems - idx);
+//         for (var i=0; i<it; i++) {
+//             // append slides to end
+//             if (e.direction=="left") {
+//                 $('.carousel-item').eq(i).appendTo('.carousel-inner');
+//             }
+//             else {
+//                 $('.carousel-item').eq(0).appendTo('.carousel-inner');
+//             }
+//         }
+//     }
+// });
 	$('#dropdown04').on('show.bs.dropdown', function () {
 	  console.log('show');
 	});

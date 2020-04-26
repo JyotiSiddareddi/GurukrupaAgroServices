@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Industrial &mdash; Website Template by Colorlin</title>
+    <title>GuruKrupa Agro Services</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -11,12 +11,15 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-
     <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
-    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
 
     <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="scss/_custom-styles.scss">
+    <link href="fontawesome/css/all.css" rel="stylesheet">
 
   </head>
   <body>
@@ -24,8 +27,13 @@
     <header role="banner">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <img src="images/siteLogo.jpg" style="margin:10px;height: 63px; width: 75px; border-radius: 13px" />
-          <a class="navbar-brand " href="index.html">GuruKrupa Agro Services</a>
+          <img src="images/siteLogo.jpg" class="logo img-fluid"/>
+          <a class="navbar-brand " href="index.html">
+            GuruKrupa Agro Services
+            <span class="tag-line font-italic font-weight-bolder">SolarPump, Lift, Drip....</span>
+          </a>
+         
+         
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -36,35 +44,22 @@
                 <a class="nav-link active" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="projects.html">Projects</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="services.html">Irrigation Management</a>
-                  <a class="dropdown-item" href="services.html">Lift Irrigation</a>
-                  <a class="dropdown-item" href="services.html">Drift Irrigation</a>
-                  <a class="dropdown-item" href="services.html">Drinking Water</a>
-                  <a class="dropdown-item" href="services.html">Solar Pumping Systems</a>
-                  <a class="dropdown-item" href="services.html">Finance Consulting</a>
-                  <a class="dropdown-item" href="services.html">Farmer Marketing</a>
-                  <a class="dropdown-item" href="services.html">Logistic Management</a>
-                </div>
+                  <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown04">
+                      <a class="dropdown-item" href="services.html">Complete Solution</a>
+                  </div>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Products</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="#footer">Contact Us</a>
               </li>
+             
             </ul>
-
-            <div class="navbar-nav ml-auto">
-              <form method="post" class="search-form">
-                <span class="icon ion ion-search"></span>
-                <input type="text" class="form-control" placeholder="Search...">
-              </form>
-            </div>
 
           </div>
         </div>
@@ -75,358 +70,915 @@
     <div class="top-shadow"></div>
 
     <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background-image: url('images/7.jpg');">
+      <div class="slider-item" style="background-image: url('images/7.jpg');background-position:center center">
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
-            <div class="col-lg-7 text-center col-sm-12 element-animate">
+            <div class="col-lg-7 text-center col-sm-12">
               <div class="btn-play-wrap mx-auto"><p class="mb-4"><a href="videos/v3.mp4" data-fancybox data-ratio="2" class="btn-play"><span class="ion ion-ios-play"></span></a></p></div>
-              <h1 class="mb-4"><span>We Are Industrial Company</span></h1>
-              <p class="mb-5 w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?</p>
+              <h1 class="mb-4"><span>Improving Agriculture, Improving Lifes<br><span  style="font-size:15px">In Nature We Trust</span></span></h1>
+            
             </div>
           </div>
         </div>
       </div>
 
-      <div class="slider-item" style="background-image: url('images/8jpg');">
+      <div class="slider-item" style="background-image: url('images/2.jpg');">
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
-            <div class="col-lg-7 text-center col-sm-12 element-animate">
-              <div class="btn-play-wrap mx-auto"><p class="mb-4"><a href="https://vimeo.com/59256790" data-fancybox data-ratio="2" class="btn-play"><span class="ion ion-ios-play"></span></a></p></div>
-              <h1><span>The Best Level of Excellence in Steel Fabrication</span></h1>
-              <p class="mb-5 w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae fuga, hic quae molestias aperiam deserunt!</p>
+            <div class="col-lg-7 text-center col-sm-12">
+              <div class="btn-play-wrap mx-auto"><p class="mb-4"><a href="videos/1.mp4" data-fancybox data-ratio="2" class="btn-play"><span class="ion ion-ios-play"></span></a></p></div>
+              <h1 class="mb-4"><span>We have Solutions for Agri Need<br><em style="font-size:15px">Grow us, develop country </em></span></span></h1>
             </div>
           </div>
         </div>
 
       </div>
-
+      <div class="slider-item" style="background-image: url('images/agr2.jpg');">
+        <div class="container">
+          <div class="row slider-text align-items-center justify-content-center">
+            <div class="col-lg-7 text-center col-sm-12">
+              <div class="btn-play-wrap mx-auto"><p class="mb-4"><a href="videos/2.mp4" data-fancybox data-ratio="2" class="btn-play"><span class="ion ion-ios-play"></span></a></p></div>
+              <h1 class="mb-4"><span>Feeding the world, caring for the Earth.<br><em class="" style="font-size:15px">Grown by nature.</em></span></span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider-item" style="background-image: url('images/agri.jpg');">
+        <div class="container">
+          <div class="row slider-text align-items-center justify-content-center">
+            <div class="col-lg-7 text-center col-sm-12">
+              <div class="btn-play-wrap mx-auto"><p class="mb-4"><a href="videos/10.mp4" data-fancybox data-ratio="2" class="btn-play"><span class="ion ion-ios-play"></span></a></p></div>
+              <h1 class="mb-4"><span>Agriculture that works for the future.<br><em class="" style="font-size:15px">Field is Futures </em></span></span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider-item" style="background-image: url('images/1.jpg');">
+        <div class="container">
+          <div class="row slider-text align-items-center justify-content-center">
+            <div class="col-lg-7 text-center col-sm-12">
+              <br><br>
+              <h1 class="mb-4"><span>Experience the real agriculture..<br><em class="" style="font-size:15px">Farm On!! </em></span></span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- END slider -->
     </div>
 
-
-    <section class="section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center">
-            <h2>We'll Handle Any Irrigation Related Services</h2>
-          </div>
-        </div>
-        <div class="row align-items-stretch">
-          <div class="col-lg-4 order-lg-2">
-            <div class="scaling-image h-100"><div class="frame h-100"><div class="feature-img-bg h-100" style="background-image: url('images/industrial_feature_1.jpg');"></div></div></div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1" >
-
-            <div class="feature-1 d-md-flex">
-              <div class="align-self-center">
-                <span class="ion ion-easel display-4 text-primary"></span>
-                <h3>Esitmation And Design</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts.</p>
-              </div>
+  <!--About US-->
+    <section class="section" id="about">
+      <div class="container  wow slideInLeft slower hoverable" style="background-image: url('images/test.png');background-repeat:no-repeat;height: 500px;width:100%;background-position:center center" >
+        <div class="row">
+            <!-- <div class="col-md-4 col-lg-4 element-animate ">
+                <img src="videos/oie_animation.gif" class="img-fluid mx-auto d-block" alt="img1">
+            </div> -->
+            <div class=" col-xs-12 col-md-12 col-lg-12 vision" style="background-color: rgba(0,150,136,0.8)">
+                <h2 style="font-family: serif" class="text-center font-weight-bold white-darker-hover orange-dark-text card-title pt-2">OUR VALUES :</h2>
+                <span class="white-darker-hover visionFont"> 
+                  To Support, take initiative for end to end services in agriculture. Ensure allied Production and Marketing so as to generate 
+                  sustainable and respectful livelihood to the small and marginal farmers.
+                  <br>
+                  We offer end to end solutions on Integrated Agro Farming through comprehensive consulting services and multi-disciplinary execution process.
+                  <br>
+                  Our focus is long term customer relationship and high end agriculture for all.
+                </span>
             </div>
-
-            <div class="feature-1 d-md-flex">
-              <div class="align-self-center">
-                <span class="ion ion-hammer display-4 text-primary"></span>
-                <h3>Lift Irrigation</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts.</p>
-              </div>
-            </div>
-
           </div>
-
-          <div class="col-md-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-3" >
-
-            <div class="feature-1 d-md-flex">
-              <div class="align-self-center">
-                <span class="ion ion-cube display-4 text-primary"></span>
-                <h3>Solar Pumping Systems</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts.</p>
-              </div>
-            </div>
-
-            <div class="feature-1 d-md-flex">
-              <div class="align-self-center">
-                <span class="ion ion-clipboard display-4 text-primary"></span>
-                <h3>Drip Irrigation</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts.</p>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
       </div>
     </section>
+    <section>
 
-    <section class="section bg-light">
+<!--Carousel Guest Visit Wrapper-->
+
+    <section class="section  block-11">
+     
+          <div class="col-md-12 text-center">
+              <h2 class=" heading mb-4" style="font-family:Montserrat">SPECIAL GUEST VISIT TO THE SITE </h2>
+            </div>
+     
+      
+          <!--First row-->
+        
+          
+            <!--First column-->
+            <div class="col-md-12">
+         
+              <div id="mdb-lightbox-ui"></div>
+          
+              <!--Full width lightbox-->
+              <div class="mdb-lightbox">
+          
+                <figure class="col-md-4">
+                  <a href="images/visits/1.1.png" data-size="1600x1067">
+                    <img src="images/visits/1.1.png" class="img-fluid z-depth-1 wow animated fadeInLeft slower img-thumbnail">
+                  </a>
+                </figure>
+          
+                <figure class="col-md-4">
+                  <a href="images/visits/2.png" data-size="1600x1067">
+                    <img src="images/visits/2.png" class="img-fluid z-depth-1 wow animated slideInUp slower img-thumbnail">
+                  </a> 
+                </figure>
+          
+                <figure class="col-md-4">
+                  <a href="images/visits/3.png" data-size="1600x1067">
+                    <img src="images/visits/3.png" class="img-fluid z-depth-1 wow animated fadeInRight slower img-thumbnail">
+                  </a>
+                </figure>
+          
+                <br>
+                <div class ="row">
+                  <div class="col-md-6 text-center">
+                  <a href="#" data-toggle="collapse" data-target="#guestList" class="btn waves-effect btn-default btn-rounded" style="-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+                   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);">
+                      Load More<span class="ion-android-arrow-dropright-circle"></span>
+                  </a>
+                  </div>
+                </div>
+
+                <div id="guestList" class="collapse">
+
+                    <div class="gallery" id="gallery">
+
+                        <!-- Grid column -->
+                        
+                        <figure class="col-md-12 mb-3 pics animation all 2">
+                            <a href="images/visits/1.1.png" data-size="1600x1067">
+                          <img class="img-fluid animated fadeInRight slower img-thumbnail" src="images/visits/11.png" alt="Card image cap">
+                        </a>
+                        </figure>
+                        <!-- Grid column -->
+                      
+                        <!-- Grid column -->
+                        <div class="mb-3 pics animation all 1">
+                          <img class="img-fluid animated fadeInUp slower img-thumbnail" src="images/visits/12.png" alt="Card image cap" data-wow-iteration="100">
+                        </div>
+                        <!-- Grid column -->
+                      
+                         <!-- Grid column -->
+                        <div class="mb-3 pics animation all 2">
+                          <img class="img-fluid animated fadeInLeft slower img-thumbnail" src="images/visits/14.png" alt="Card image cap" data-wow-iteration="100">
+                        </div>
+                        <!-- Grid column -->
+                      
+                        <!-- Grid column -->
+                        <div class="mb-3 pics animation all 2">
+                          <img class="img-fluid animated slideInDown slower img-thumbnail" src="images/visits/15.png" alt="Card image cap" data-wow-iteration="10">
+                        </div>
+                        <!-- Grid column -->
+                         <!-- Grid column -->
+                        <div class="mb-3 pics animation all 2">
+                          <img class="img-fluid animated slideInDown slower img-thumbnail" src="images/visits/16.png" alt="Card image cap" data-wow-iteration="2">
+                        </div>
+                        <!-- Grid column -->
+                        <div class="mb-3 pics animation all 1">
+                          <img class="img-fluid animated slideInDown slower img-thumbnail" src="images/visits/22.jpg" alt="Card image cap" data-wow-iteration="2">
+                        </div>
+                        <!-- Grid column -->
+                      
+                        <!-- Grid column -->
+                        <div class="mb-3 pics animation all 2">
+                          <img class="img-fluid animated fadeInUp slower img-thumbnail" src="images/visits/19.png" alt="Card image cap">
+                        </div>
+                      
+                        <!-- Grid column -->
+                        <div class="mb-3 pics animation all 1">
+                          <img class="img-fluid animated fadeInUp slower img-thumbnail" src="images/visits/26.png" alt="Card image cap" data-wow-iteration="2">
+                        </div>
+                         <!-- Grid column -->
+                         <div class="mb-3 pics animation all 2">
+                            <img class="img-fluid  wow fadeInDown slower img-thumbnail" src="images/visits/18.png" alt="Card image cap" data-wow-iteration="2">
+                          </div>
+                        <!-- Grid column -->
+                        <div class="mb-3 pics animation all 2">
+                            <img class="img-fluid animated fadeInUp slower img-thumbnail" src="images/visits/20.png" alt="Card image cap" data-wow-iteration="2">
+                        </div>
+
+                        <!-- Grid column -->
+                        <div class="mb-3 pics animation all 2">
+                          <img class="img-fluid animated fadeInUp slower img-thumbnail" src="images/visits/21.png" alt="Card image cap" data-wow-iteration="2">
+                        </div>
+                        <!-- Grid column -->
+                        <div class="mb-3 pics animation all 2">
+                            <img class="img-fluid animated fadeInUp slower img-thumbnail" src="images/visits/25.jpg" alt="Card image cap" data-wow-iteration="2">
+                        </div>
+                           <!-- Grid column -->
+                           <div class="mb-3 pics animation all 2">
+                            <img class="img-fluid animated fadeInLeft slower img-thumbnail" src="images/visits/28.png" alt="Card image cap" data-wow-iteration="2">
+                        </div>
+                          <!-- Grid column -->
+                        <div class="mb-3 pics animation all 2">
+                              <img class="img-fluid animated tada slower img-thumbnail" src="images/visits/29.png" alt="Card image cap" data-wow-iteration="2">
+                        </div>
+                            <!-- Grid column -->
+                        <div class="mb-3 pics animation all 2">
+                            <img class="img-fluid animated fadeInRight slower img-thumbnail" src="images/visits/27.png" alt="Card image cap" data-wow-iteration="2">
+                        </div>
+                          <!-- Grid column -->
+                        <div class="mb-3 pics animation all 2">
+                            <img class="img-fluid animated fadeInLeft slower img-thumbnail" src="images/visits/28.png" alt="Card image cap" data-wow-iteration="2">
+                        </div>
+                       
+                          <!-- Grid column -->
+                        <div class="mb-3 pics animation all 2">
+                          <img class="img-fluid wow slideInDown slower" src="images/visits/29.png" alt="Card image cap" data-wow-iteration="2">
+                        </div>
+                          <!-- Grid column -->
+                        <div class="mb-3 pics animation all 2">
+                          <img class="img-fluid wow fadeInLeft slower img-thumbnail" src="images/visits/30.png" alt="Card image cap" data-wow-iteration="2">
+                        </div>
+                              <!-- Grid column -->
+                        <div class="mb-3 pics animation all 2">
+                            <img class="img-fluid wow tafadeInLeftda slower img-thumbnail" src="images/visits/31.png" alt="Card image cap" data-wow-iteration="2">
+                          </div>
+                        </div>
+
+                </div>
+              </div>
+              <!--/Full width lightbox-->
+            </div>
+            <!--/First column-->
+          
+         
+          <!--First row-->
+       <!--/First row-->
+    <!-- END .block-4 -->
+    </section>
+
+  <section class="section border-t pb-0">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-8 text-center">
+          <h2 class=" heading mb-4">GLIMPSE OF OUR PROJECTS</h2>
+          <p class="mb-5 lead">We start with an Idea and to make it happen we bring several strategies
+         We make centralized plans for decentralized execution
+         We have strong homework for massive scale operations.Our ultimate focus is long term customer relationship</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row no-gutters">
+        <div class="col-md-4 border">
+          <a href="!#" class="link-thumbnail">
+            <h3>Borewell Irrigation Project</h3>
+            <img src="images/projects/6.jpg" alt="Free template by Free-Template.co" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 border">
+          <a href="!#" class="link-thumbnail">
+            <h3>Ganga Kalyan Project, Byalyal</h3>
+            <img src="images/projects/4.jpg" alt="Free template by Free-Template.co" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4  border ">
+          <a href="!#" class="link-thumbnail">
+            <h3>Horticulture Project in Karnataka</h3>
+            <img src="images/projects/12.jpg" alt="Free template by Free-Template.co" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4  border ">
+          <a href="!#" class="link-thumbnail">
+            <h3>Borewell Irrigation Project</h3>
+            <img src="images/projects/2.jpg" alt="Free template by Free-Template.co" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 border">
+          <a href="!#" class="link-thumbnail">
+            <h3>Drip Irrigation</h3>
+          
+            <img src="images/projects/5.jpg" alt="Free template by Free-Template.co" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 border">
+          <a href="!#" class="link-thumbnail">
+            <h3>Drip Irrigation for Nursery</h3>
+            
+            <img src="images/projects/3.png" alt="Free template by Free-Template.co" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 border">
+          <a href="project-single.html" class="link-thumbnail">
+            <h3>Solar Panel Installation</h3>
+            <img src="images/projects/9.jpg" alt="Free template by Free-Template.co" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4  border">
+          <a href="!#" class="link-thumbnail">
+            <h3>Lift Irrigation</h3>
+            <img src="images/projects/10.png" alt="Free template by Free-Template.co" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 border">
+            <a href="!#" class="link-thumbnail">
+              <h3>Drip Irrigation for Nursery</h3>
+              <img src="images/projects/11.png" alt="Free template by Free-Template.co" class="img-fluid">
+            </a>
+          </div>
+
+      </div>
+
+    </div>
+
+      </div>
+      
+    </section>
+    <!-- END Stats section section -->
+    <br>
+    <section class="section" style="">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-lg-4 element-animate ">
-            <div class="media block-6 d-block text-center">
-              <div class="icon mb-3"><span class="ion-android-notifications text-primary"></span></div>
-              <div class="media-body">
-                <h3 class="heading">Modern Design</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+          <div class="col-md-4">
+            <div class="card text-white text-center mt-3 mb-3 wow animated slideInLeft slower"  style="background: rgba(28, 23, 21, 0.9);">
+              <div class="card-body" style="border-left: 5px solid #f03c02;">
+                <span class="card-title">Borewell Irrigation</span>
+                <p class="card-text">Total Completed Projects
+                  <span class="counter-count widget-content widget-numbers text-success">450</span>
+                </p>
               </div>
             </div>
-
           </div>
-          <div class="col-md-6 col-lg-4 element-animate ">
-            <div class="media block-6 d-block text-center">
-              <div class="icon mb-3"><span class="ion-heart text-primary"></span></div>
-              <div class="media-body">
-                <h3 class="heading">Built With Passion</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+          <div class="col-md-4">
+            <div class="card text-white text-center mt-3 mb-3 wow animated slideInDown slower"  style="background: rgba(28, 23, 21, 0.9);">
+              <div class="card-body" style="border-left: 5px solid #f03c02;">
+                <span class="card-title">Lift Irrigation</span>
+                <p class="card-text">Total Completed Projects
+                  <span class="counter-count widget-content widget-numbers text-success">34</span>
+                </p>
               </div>
             </div>
-
           </div>
-          <div class="col-md-6 col-lg-4 element-animate ">
-            <div class="media block-6 d-block text-center">
-              <div class="icon mb-3"><span class="ion-flash text-primary"></span></div>
-              <div class="media-body">
-                <h3 class="heading">Fast Loading</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+          <div class="col-md-4">
+              <div class="card text-white text-center mt-3 mb-3 wow animated slideInRight slower"  style="background: rgba(28, 23, 21, 0.9);">
+                <div class="card-body" style="border-left: 5px solid #f03c02;">
+                  <span class="card-title">Clients</span>
+                  <p class="card-text">Total number of beneficaries
+                    <span class="counter-count widget-content widget-numbers text-success">500</span>
+                  </p>
+                </div>
               </div>
-            </div>
-
+          </div>
+          <div class="col-md-4">
+              <div class="card text-white text-center mt-3 mb-3  wow animated slideInLeft slower"  style="background: rgba(28, 23, 21, 0.9);">
+                <div class="card-body" style="border-left: 5px solid #f03c02;">
+                  <span class="card-title">Drip Irrigation</span>
+                  <p class="card-text">Total completed project(in acres)
+                    <span class="counter-count widget-content widget-numbers text-success">2000</span>
+                  </p>
+                </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card text-white text-center mt-3 mb-3 wow animated slideInDown slower"  style="background: rgba(28, 23, 21, 0.9);">
+                <div class="card-body" style="border-left: 5px solid #f03c02;">
+                  <span class="card-title">Government Projects</span>
+                  <p class="card-text">Turnover from Govt. Projects(in Lakhs)
+                    <span class="counter-count widget-content widget-numbers text-success">1500</span>
+                  </p>
+                </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card text-white text-center mt-3 mb-3 wow animated slideInRight slower" style="background: rgba(28, 23, 21, 0.9);">
+                <div class="card-body" style="border-left: 5px solid #f03c02;">
+                  <span class="card-title">SolarPump Installation</span>
+                  <p class="card-text">Total Solar Pump Installed
+                    <span class="counter-count widget-content widget-numbers text-success">12</span>
+                  </p>
+                </div>
+              </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- END section -->
-    <section class="section element-animate">
-      <div class="container">
-        <div class="row align-items-center mb-5">
-          <div class="col-lg-8 order-md-3">
-            <div class="scaling-image"><div class="frame"><img src="images/21.jpg" alt="Free template by Free-Template.co" class="img-fluid"></div></div>
-          </div>
-          <div class="col-md-4 pr-md-5 mb-4">
-            <div class="block-41">
-              <h2 class="block-41-heading mb-5">Let's Build Together</h2>
-              <div class="block-41-text">
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                <p><a href="#" class="readmore">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>
-              </div>
-            </div>
-          </div>
 
-        </div>
-      </div>
-    </section>
-
-    <section class="section element-animate bg-light">
-      <div class="container">
-        <div class="row align-items-center mb-5">
-          <div class="col-lg-7 order-md-1">
-            <div class="scaling-image"><div class="frame"><img src="images/industrial_featured_img_2.jpg" alt="Free template by Free-Template.co" class="img-fluid"></div></div>
-          </div>
-          <div class="col-md-5 pl-md-5 mb-5 order-md-2">
-            <div class="block-41">
-              <h2 class="block-41-heading mb-5">We'll handle any intercate custom design</h2>
-              <div class="block-41-text">
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                <p><a href="#" class="readmore">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-
-    <section class="section border-t pb-0">
-      <div class="container">
-        <div class="row justify-content-center mb-5 element-animate">
-          <div class="col-md-8 text-center">
-            <h2 class=" heading mb-4">Projects</h2>
-            <p class="mb-5 lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row no-gutters">
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Ducting Design in Colorado</h3>
-              <span class="ion-plus icon"></span>
-              <img src="images/industrial_img_1.jpg" alt="Free template by Free-Template.co" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Tanks Project In California</h3>
-              <span class="ion-plus icon"></span>
-              <img src="images/industrial_img_2.jpg" alt="Free template by Free-Template.co" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Structural Design in New York</h3>
-              <span class="ion-plus icon"></span>
-              <img src="images/industrial_img_3.jpg" alt="Free template by Free-Template.co" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Stacks Design</h3>
-              <span class="ion-plus icon"></span>
-              <img src="images/industrial_img_4.jpg" alt="Free template by Free-Template.co" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Intercate Custom</h3>
-              <span class="ion-plus icon"></span>
-              <img src="images/industrial_img_5.jpg" alt="Free template by Free-Template.co" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Banker Design</h3>
-              <span class="ion-plus icon"></span>
-              <img src="images/industrial_img_6.jpg" alt="Free template by Free-Template.co" class="img-fluid">
-            </a>
-          </div>
-        </div>
-
-      </div>
-    </section>
-    <!-- END section -->
-
-    <section class="section bg-light block-11">
+    <!--Events and News Section-->
+    <section class="visitsMove section block-11">
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-8 text-center">
-            <h2 class=" heading mb-4">Testimonial</h2>
+            <h2 class=" heading mb-4">OUR LATEST NEWS AND EVENTS</h2>
+          </div>
+          <!--Carousel Wrapper-->
+<div id="multi-item-1" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+    <!--Controls-->
+    <div class="controls-top">
+      <a class="btn-floating" href="#multi-item-1" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+      <a class="btn-floating" href="#multi-item-1" data-slide="next"><i
+          class="fas fa-chevron-right"></i></a>
+    </div>
+    <!--/.Controls-->
+  
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#multi-item-1" data-slide-to="0" class="active"></li>
+      <li data-target="#multi-item-1" data-slide-to="1"></li>
+      <li data-target="#multi-item-1" data-slide-to="2"></li>
+      <li data-target="#multi-item-1" data-slide-to="3"></li>
+      <li data-target="#multi-item-1" data-slide-to="4"></li>
+    </ol>
+    <!--/.Indicators-->
+  
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+  
+      <!--First slide-->
+      <div class="carousel-item active">
+  
+        <div class="col-md-4">
+          <div class="card mb-2">
+            <img class="card-img-top"
+              src="images/events/1.png"
+              alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Deepostava 2020</h4>
+              <p class="card-text">Covid-19 we all will overcome this!!</p>
+            </div>
           </div>
         </div>
-        <div class="nonloop-block-11 owl-carousel">
-          <div class="item">
-            <div class="block-33 h-100">
-                <div class="vcard d-flex mb-3">
-                  <div class="image align-self-center"><img src="images/person_3.jpg" alt="Person here"></div>
-                  <div class="name-text align-self-center">
-                    <h2 class="heading">John Smith</h2>
-                    <span class="meta">Free-Template.co Client</span>
-                  </div>
-                </div>
-                <div class="text">
-                  <blockquote>
-                    <p>&rdquo; The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. &ldquo;</p>
-                  </blockquote>
-                </div>
-              </div>
+  
+        <div class="col-md-4">
+          <div class="card mb-2">
+            <img class="card-img-top"
+              src="images/events/aai.png"
+              alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Borewell Installation</h4>
+              <p class="card-text">Parent's blessing is next to god's blessing.</p>
+            </div>
           </div>
-
-          <div class="item">
-            <div class="block-33 h-100">
-                <div class="vcard d-flex mb-3">
-                  <div class="image align-self-center"><img src="images/person_2.jpg" alt="Person here"></div>
-                  <div class="name-text align-self-center">
-                    <h2 class="heading">Joshua Darren</h2>
-                    <span class="meta">Free-Template.co Client</span>
-                  </div>
-                </div>
-                <div class="text">
-                  <blockquote>
-                    <p>&rdquo; Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. &ldquo;</p>
-                  </blockquote>
-                </div>
-              </div>
-          </div>
-
-          <div class="item">
-            <div class="block-33 h-100">
-                <div class="vcard d-flex mb-3">
-                  <div class="image align-self-center"><img src="images/person_3.jpg" alt="Person here"></div>
-                  <div class="name-text align-self-center">
-                    <h2 class="heading">John Smith</h2>
-                    <span class="meta">Free-Template.co Client</span>
-                  </div>
-                </div>
-                <div class="text">
-                  <blockquote>
-                    <p>&rdquo; A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. &ldquo;</p>
-                  </blockquote>
-                </div>
-              </div>
-          </div>
-
-          <div class="item">
-            <div class="block-33 h-100">
-                <div class="vcard d-flex mb-3">
-                  <div class="image align-self-center"><img src="images/person_3.jpg" alt="Person here"></div>
-                  <div class="name-text align-self-center">
-                    <h2 class="heading">John Smith</h2>
-                    <span class="meta">Free-Template.co Client</span>
-                  </div>
-                </div>
-                <div class="text">
-                  <blockquote>
-                    <p>&rdquo; Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. &ldquo;</p>
-                  </blockquote>
-                </div>
-              </div>
-          </div>
-
         </div>
+  
+        <div class="col-md-4">
+          <div class="card mb-2">
+              <video height="233px" class="card-img-top" autoplay loop controls muted>
+                  <source src="images/events/17.mp4" type="video/mp4" />
+              </video>
+            <div class="card-body">
+              <h4 class="card-title">DD chandana news</h4>
+              <p class="card-text">Recognized for water supply in drought areas.</p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+      <!--/.First slide-->
+  
+      <!--Second slide-->
+      <div class="carousel-item">
+  
+        <div class="col-md-4">
+          <div class="card mb-2">
+              <video height="233px" class="card-img-top" autoplay loop controls muted>
+                  <source src="images/events/16.mp4" type="video/mp4" />
+                </video>
+            <div class="card-body">
+              <h4 class="card-title">DD channel news</h4>
+              <p class="card-text">Recognized for water supply in drought areas</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4">
+          <div class="card mb-2">
+            <img class="card-img-top"
+              src="images/events/18.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Inauguration of farm</h4>
+              <p class="card-text">Work is worship</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4">
+          <div class="card mb-2">
+            <img class="card-img-top"
+              src="images/events/19.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Inauguration of farm</h4>
+              <p class="card-text">Borewell pooja Inauguration</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/.Second slide-->
+  
+      <!--Third slide-->
+      <div class="carousel-item">
+  
+        <div class="col-md-4">
+          <div class="card mb-2">
+            <img class="card-img-top"
+              src="images/events/3.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Deepostava</h4>
+              <p class="card-text">Covid -19 Together we stand</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4">
+          <div class="card mb-2">
+            <img class="card-img-top"
+              src="images/events/7.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Deepostava</h4>
+              <p class="card-text">Where there is will there is way</p>
+
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4">
+          <div class="card mb-2">
+            <img class="card-img-top"
+              src="images/events/10.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Deepavali utsova 2019</h4>
+              <p class="card-text">Celebrating Diwali , where light enlightens life</p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+      <!--/.Third slide-->
+      <!--fourth slide-->
+      <div class="carousel-item">
+  
+          <div class="col-md-4">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="images/events/11.png" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Deepavali utsova 2019</h4>
+                <p class="card-text">Deepavali office Pooja </p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="images/events/12.png" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Vijay Karnataka News</h4>
+                <p class="card-text">Completed Drip irrgation to 500 acres land.</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="images/events/13.png" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">IndianExpress News</h4>
+                <p class="card-text">Mini forest to come up on 500 acres of land.</p>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+        <!--fifth slide-->
+     <div class="carousel-item">
+  
+      <div class="col-md-4">
+        <div class="card mb-2">
+          <img class="card-img-top"
+            src="images/events/14.png" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">VijayKarantaka News</h4>
+            <p class="card-text">Bhutnal Sasoydhyanada kaamgaari.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-2">
+          <img class="card-img-top"
+            src="images/events/15.png" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">VijayKarantaka News</h4>
+            <p class="card-text">Mini forest to come up on 500 acres of land.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-2">
+          <img class="card-img-top"
+            src="images/events/5.png" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Deepostava 2019</h4>
+            <p class="card-text">Deepostava 2019</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    <!--/.Slides-->
+     
+  
+  </div>
+  <!--/.Carousel Wrapper-->
+          </div>
+        </div>
+        </section>
+      </div>
+
       </div>
     </div>
     <!-- END .block-4 -->
     </section>
-    <footer class="site-footer" role="contentinfo">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-4 mb-5">
-            <h3>About The Industrial</h3>
-            <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .</p>
-            <ul class="list-unstyled footer-link d-flex footer-social">
-              <li><a href="#" class="p-2"><span class="fa fa-twitter"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-facebook"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-linkedin"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-instagram"></span></a></li>
-            </ul>
 
-          </div>
-          <div class="col-md-5 mb-5 pl-md-5">
-            <h3>Contact Info</h3>
-            <ul class="list-unstyled footer-link">
-              <li class="d-block">
-                <span class="d-block">Address:</span>
-                <span >Plot Number 81, KIADB Industrial area, Vijaypura, Karnataka India</span></li>
-              <li class="d-block"><span class="d-block">Mobile:</span><span >9739192020</span></li>
-              <li class="d-block"><span class="d-block">Email:</span><span >gurukrupaagro1971@gmail.com</span></li>
-            </ul>
-          </div>
-          <div class="col-md-3 mb-5">
-            <h3>Quick Links</h3>
-            <ul class="list-unstyled footer-link">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Terms of Use</a></li>
-              <li><a href="#">Disclaimers</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3">
+    <!-- Stratergy Links-->
+    
+    <section>
+      <!-- Card -->
+<div class="card card-image" style="background-image: url(images/sys.jpg);">
 
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 text-md-center text-left">
-             <p class="copyright">
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-          </div>
-        </div>
+<!-- Content -->
+<div class="rgba-black-strong py-5 px-4" style="background-color:rgba(0,0,0,0.3)">
+  
+  <div class="row d-flex" style="justify-content: space-around">
+      <div class="col-md-6 col-xl-2">
+          <blockquote class="blockquote font-weight-bolder wow animated fadeInRight slower" style="color: #fff">
+              <p class="h1 mb-0" style="font-size: 2.5rem">How We Execute Our Bussines</p>
+              <!-- <span style="font-size: 13px;
+              font-style: italic;
+              color: chartreuse;">- Intergrated System Approach</span> -->
+              <footer class="blockquote-footer mb-2" style="color:cornsilk">Integrated System Approach<cite title="Source Title"></cite></footer>
+            </blockquote>
       </div>
-    </footer>
+    <div class="col-md-6 col-xl-8">
+
+      <!--Accordion wrapper-->
+      <div class="accordion md-accordion accordion-5 z-depth-4" id="accordionEx5" role="tablist"
+        aria-multiselectable="true">
+
+        <!-- Accordion card -->
+        <div class="card mb-4">
+
+          <!-- Card header -->
+          <div class="card-header p-0 z-depth-1" role="tab" id="heading30" style="background: #00695c">
+            <a data-toggle="collapse" data-parent="#accordionEx5" href="#collapse30" aria-expanded="true"
+              aria-controls="collapse30">
+              <i class="fas fa-cloud fa-2x p-3 mr-4 float-left black-text" aria-hidden="true"></i>
+              <h5 class="text-uppercase white-text mb-0 py-3 mt-1">
+               Completing the agricultural value chain
+              </h5>
+            </a>
+          </div>
+
+          <!-- Card body -->
+          <div id="collapse30" class="collapse show" role="tabpanel" aria-labelledby="heading30"
+            data-parent="#accordionEx5">
+            <div class="card-body rgba-black-light white-text z-depth-1">
+              <p class="p-md-4 mb-0">We complete the agriculture chain by bidding for project and take the  orders. </p>
+            </div>
+          </div>
+        </div>
+        <!-- Accordion card -->
+
+        <!-- Accordion card -->
+        <div class="card mb-4">
+
+          <!-- Card header -->
+          <div class="card-header p-0 z-depth-1" role="tab" id="heading31" style="background: #00695c">
+            <a data-toggle="collapse" data-parent="#accordionEx5" href="#collapse31" aria-expanded="true"
+              aria-controls="collapse31">
+              <i class="fas fa-seedling fa-2x p-3 mr-4 float-left black-text" aria-hidden="true"></i>
+              <h5 class="text-uppercase white-text mb-0 py-3 mt-1">
+                Increase Agricultural Productivity
+              </h5>
+            </a>
+          </div>
+
+          <!-- Card body -->
+          <div id="collapse31" class="collapse" role="tabpanel" aria-labelledby="heading31"
+            data-parent="#accordionEx5">
+            <div class="card-body rgba-black-light white-text z-depth-1">
+              <p class="p-md-4 mb-0">We help farmers to produce more and better yield by using our latest technoogy for drip and lift irrigation</p>
+            </div>
+          </div>
+        </div>
+        <!-- Accordion card -->
+
+        <!-- Accordion card -->
+        <div class="card mb-4">
+
+          <!-- Card header -->
+          <div class="card-header p-0 z-depth-1" role="tab" id="heading32" style="background: #00695c">
+            <a data-toggle="collapse" data-parent="#accordionEx5" href="#collapse32" aria-expanded="true"
+              aria-controls="collapse32">
+              <i class="fas fa-people-carry fa-2x p-3 mr-4 float-left black-text" aria-hidden="true"></i>
+              <h5 class="text-uppercase white-text mb-0 py-3 mt-1">
+              We help in trading
+              </h5>
+            </a>
+          </div>
+
+          <!-- Card body -->
+          <div id="collapse32" class="collapse" role="tabpanel" aria-labelledby="heading32"
+            data-parent="#accordionEx5">
+            <div class="card-body rgba-black-light white-text z-depth-1">
+              <p class="p-md-4 mb-0">We purchase the fruits and vegetable from farmer and distribute it to farmers</p>
+            </div>
+          </div>
+        </div>
+        <!-- Accordion card -->
+        <!-- Accordion card -->
+        <div class="card mb-4">
+
+          <!-- Card header -->
+          <div class="card-header p-0 z-depth-1" role="tab" id="heading32" style="background: #00695c">
+            <a data-toggle="collapse" data-parent="#accordionEx5" href="#collapse34" aria-expanded="true"
+              aria-controls="collapse34">
+              <i class="fas fa-shopping-cart fa-2x p-3 mr-4 float-left black-text" aria-hidden="true"></i>
+              <h5 class="text-uppercase white-text mb-0 py-3 mt-1">
+                Proceesing For Domestic Markets
+              </h5>
+            </a>
+          </div>
+  
+          <!-- Card body -->
+          <div id="collapse34" class="collapse" role="tabpanel" aria-labelledby="heading32"
+            data-parent="#accordionEx5">
+            <div class="card-body rgba-black-light white-text z-depth-1">
+              <p class="p-md-4 mb-0"> Finally we process this for export.We help farmer in processing the goods for domestic market</p>
+            </div>
+          </div>
+        </div>
+         <!-- Accordion card -->
+         <div class="card mb-4">
+
+            <!-- Card header -->
+            <div class="card-header p-0 z-depth-1" role="tab" id="heading32" style="background: #00695c">
+              <a data-toggle="collapse" data-parent="#accordionEx5" href="#collapse33" aria-expanded="true"
+                aria-controls="collapse32">
+                <i class="fas fa-truck fa-2x p-3 mr-4 float-left black-text" aria-hidden="true"></i>
+                <h5 class="text-uppercase white-text mb-0 py-3 mt-1">
+                 Logistic and Transportation
+                </h5>
+              </a>
+            </div>
+    
+            <!-- Card body -->
+            <div id="collapse33" class="collapse" role="tabpanel" aria-labelledby="heading32"
+              data-parent="#accordionEx5">
+              <div class="card-body rgba-black-light white-text z-depth-1">
+                <p class="p-md-4 mb-0">We provide tranporation and logistic services from producer to consumer</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!--/.Accordion wrapper-->
+
+    </div>
+  </div>
+</div>
+<!-- Content -->
+</div>
+<!-- Card -->
+
+    </section>
+    <!-- Footer -->
+<footer class="page-footer font-small unique-color-dark" id="footer">
+
+    <div class="darkBlue-gradient-rgba">
+      <div class="container">
+  
+        <!-- Grid row-->
+        <div class="row py-4 d-flex align-items-center">
+  
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+            <h6 class="mb-0">Get connected with us on social networks!</h6>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+  
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f white-text mr-4"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fab fa-twitter white-text mr-4"> </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g white-text mr-4"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in white-text mr-4"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram white-text"> </i>
+            </a>
+  
+          </div>
+          <!-- Grid column -->
+  
+        </div>
+        <!-- Grid row-->
+  
+      </div>
+    </div>
+  
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5">
+  
+      <!-- Grid row -->
+      <div class="row mt-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+  
+          <!-- Content -->
+          <h6 class="text-uppercase font-weight-bold">GuruKrupa Agro Services</h6>
+          <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto " style="width: 60px;background-color: #2096ff;">
+          <div class="card testimonial-card zoom z-depth-4 hoverable">
+
+              <!--Background color-->
+              <div class="card-up deep-purple lighten-2 darkBlue-gradient-rgba"></div>
+      
+              <!--Avatar-->
+              <div class="avatar mx-auto white"><img src="images/visits/prof3.png"
+                  alt="avatar mx-auto white" class="rounded-circle img-fluid">
+              </div>
+      
+              <div class="card-body">
+                <!--Name-->
+                <h4 class="card-title mt-1">R B Siddaraddi</h4>
+                <hr>
+                <h4 style="font-size:14px;font-family: sans-serif" class="card-title mt-1"><i class="fas fa-home fa-quote-left"></i> Investment In Agriculture Is The Best Weapon Against Hunger And Poverty</h4>
+                
+                <!--Quotation-->
+                <p><i class="fas fa-home fa-quote-left"></i> Agriculture is the Future.</p>
+              </div>
+      
+            </div>
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+  
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Products</h6>
+          <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;background-color: #2096ff!important">
+          <p>
+            <a href="projects.html">PVC Pipes</a>
+          </p>
+          <p>
+            <a href="projects.html">LLDPE Drip Lateral</a>
+          </p>
+          <p>
+            <a href="projects.html">Solar Pumps</a>
+          </p>
+  
+        </div>
+  
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+  
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;background-color: #2096ff;">
+          <p>
+            <i class="fas fa-home mr-3"></i> Plot Number 81, KIADB Industrial area, Vijaypura, Karnataka India</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i>  gurukrupaagro1971@gmail.com</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> 9739192020</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> 8080808101</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
     <!-- END footer -->
 
     <!-- loader -->
@@ -434,13 +986,15 @@
 
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+   
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mdb.min.js"></script>
+    
+    <script src="js/wow.min.js"></script>
+    <script src="js/waves.js"></script>
     <script src="js/main.js"></script>
-
-    <script src="js/main.js"></script>
-
   </body>
 </html>
